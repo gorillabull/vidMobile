@@ -1,0 +1,49 @@
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\vidyaMobile\vidyaMobile\bin\Debug\vidyaMobile.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\vidyaMobile\vidyaMobile\bin\Debug\vidyaMobile.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\vidyaMobile\vidyaMobile\bin\Debug\vidyaMobile.vidyaMobile.apk
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\vidyaMobile\vidyaMobile\bin\Debug\vidyaMobile.vidyaMobile-Signed.apk
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\vidyaMobile\vidyaMobile\obj\Debug\vidyaMobile.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\vidyaMobile\vidyaMobile\obj\Debug\vidyaMobile.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\vidyaMobile\vidyaMobile\obj\Debug\vidyaMobile.dll
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\vidyaMobile\vidyaMobile\obj\Debug\vidyaMobile.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\vidyaMobile\vidyaMobile\obj\Debug\android\bin\vidyaMobile.vidyaMobile.apk
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\vidyaMobile\vidyaMobile\obj\Debug\res\layout\main.xml
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\vidyaMobile\vidyaMobile\obj\Debug\res\values\strings.xml
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\vidyaMobile\vidyaMobile\obj\Debug\R.cs.flag
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\vidyaMobile\vidyaMobile\obj\Debug\uploadflags.txt
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\vidyaMobile\vidyaMobile\bin\Debug\vidyaMobile.dll.mdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\vidyaMobile\vidyaMobile\obj\Debug\android\assets\vidyaMobile.dll.mdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\vidyaMobile\vidyaMobile\bin\Debug\vidyaMobile.dll
+bin\Debug\Mono.Android.pdb
+bin\Debug\Mono.Android.Export.pdb
+bin\Debug\mscorlib.pdb
+bin\Debug\System.Core.pdb
+bin\Debug\System.pdb
+bin\Debug\System.IdentityModel.pdb
+bin\Debug\System.Json.pdb
+bin\Debug\System.Net.pdb
+bin\Debug\System.Net.Http.pdb
+bin\Debug\System.Net.Http.WinHttpHandler.pdb
+bin\Debug\System.Security.pdb
+bin\Debug\System.Xml.pdb
+bin\Debug\System.Runtime.Serialization.pdb
+bin\Debug\System.ServiceModel.Internals.pdb
+bin\Debug\Mono.Security.pdb
+bin\Debug\System.ComponentModel.Composition.pdb
+obj\Debug\linksrc\vidyaMobile.dll.mdb
+obj\Debug\linksrc\Mono.Android.pdb
+obj\Debug\linksrc\Mono.Android.Export.pdb
+obj\Debug\linksrc\mscorlib.pdb
+obj\Debug\linksrc\System.Core.pdb
+obj\Debug\linksrc\System.pdb
+obj\Debug\linksrc\System.IdentityModel.pdb
+obj\Debug\linksrc\System.Json.pdb
+obj\Debug\linksrc\System.Net.pdb
+obj\Debug\linksrc\System.Net.Http.pdb
+obj\Debug\linksrc\System.Net.Http.WinHttpHandler.pdb
+obj\Debug\linksrc\System.Security.pdb
+obj\Debug\linksrc\System.Xml.pdb
+obj\Debug\linksrc\System.Runtime.Serialization.pdb
+obj\Debug\linksrc\System.ServiceModel.Internals.pdb
+obj\Debug\linksrc\Mono.Security.pdb
+obj\Debug\linksrc\System.ComponentModel.Composition.pdb
