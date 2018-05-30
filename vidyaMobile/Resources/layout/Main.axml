@@ -4,51 +4,41 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/linearLayout1">
-    <GridLayout
-        android:minWidth="25px"
-        android:minHeight="25px"
-        android:layout_width="match_parent"
-        android:layout_height="198.0dp"
-        android:id="@+id/gridLayout1">
-        <Button
-            android:text="dl"
-            android:id="@+id/button1"
-            android:layout_marginRight="105.0dp"
-            android:layout_marginLeft="176.5dp"
-            android:layout_marginTop="60.0dp" />
-    </GridLayout>
     <TextView
         android:text="                        Username"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView1"
-        android:layout_marginTop="82.5dp"
-        android:layout_marginLeft="0.0dp"
+        android:layout_marginTop="9.0dp"
+        android:layout_marginLeft="26.0dp"
         android:textColor="@android:color/holo_red_dark" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/editText1"
-        android:layout_marginTop="11.5dp" />
+        android:id="@+id/username"
+        android:layout_marginTop="11.5dp"
+        android:text="username_txtbox" />
     <TextView
         android:text="                          Password"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2"
-        android:layout_marginRight="17.0dp" />
+        android:id="@+id/password"
+        android:layout_marginRight="17.0dp"
+        android:layout_marginLeft="20.5dp" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editText2"
-        android:layout_marginTop="13.0dp" />
+        android:layout_marginTop="13.0dp"
+        android:text="password_txtbox" />
     <Button
         android:text="Login!"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button2"
-        android:layout_marginRight="66.0dp"
+        android:id="@+id/login_button"
+        android:layout_marginRight="74.0dp"
         android:layout_marginLeft="87.5dp" />
     <TextView
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -56,4 +46,39 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView3"
         android:textColor="@android:color/holo_green_dark" />
+    <TextView
+        android:text="Enter Url(youtube)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enter_url"
+        android:layout_marginTop="18.5dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:layout_marginTop="0.5dp"
+        android:text="url_textbox" />
+    <TextView
+        android:text="enter name of song (required)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/enter_name_of_song"
+        android:layout_marginTop="16.5dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:layout_marginTop="11.5dp"
+        android:text="name_of_song_txtbox" />
+    <Button
+        android:text="Add to Queue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Add_to_queue" />
+    <Button
+        android:text="Download music"
+        android:id="@+id/download_music"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18.0dp" />
 </LinearLayout>
