@@ -1,4 +1,3 @@
-vidyaMobile.MainActivity, vidyaMobile;md51713c42a79c1cfd56269a77b0a9009aa.MainActivity
-vidyaMobile.MainActivity, vidyaMobile, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md51713c42a79c1cfd56269a77b0a9009aa.MainActivity
-vidyaMobile.MainActivity;md51713c42a79c1cfd56269a77b0a9009aa.MainActivity
-vidyamobile.MainActivity;md51713c42a79c1cfd56269a77b0a9009aa.MainActivity
+vidyaMobile.MainActivity, vidyaMobile;md50605763fb972a4491578315135ebf6d6.MainActivity
+vidyaMobile.MainActivity;md50605763fb972a4491578315135ebf6d6.MainActivity
+vidyamobile.MainActivity;md50605763fb972a4491578315135ebf6d6.MainActivity

@@ -79,7 +79,7 @@ namespace vidyaMobile
                 }
                 tries++;
             }
-            if (tries>=4 )
+            if (tries >= 4)
             {
                 status.Text = "could not connect error!";
 
@@ -90,7 +90,7 @@ namespace vidyaMobile
         private void Add_to_queue_button_Click(object sender, EventArgs e)
         {
             //send a request to the server to download from this url and name it this. 
-            if (song_url_textbox.Text.Length > 1 && song_name_textbox.Text.Length> 1 )
+            if (song_url_textbox.Text.Length > 1 && song_name_textbox.Text.Length > 1)
             {
                 string ok = "";
                 int tries = 0;
@@ -98,6 +98,8 @@ namespace vidyaMobile
                 {
                     try
                     {
+                        FileObserver f;
+                        
                         ok = client.GetStringAsync("http://" + serverIp + "/request_download&" + userId + "&" + song_url_textbox.Text + "&" + song_name_textbox.Text).Result;
                     }
                     catch (Exception)
@@ -105,12 +107,13 @@ namespace vidyaMobile
                     }
                     tries++;
                 }
-                if (tries>=3)
+                if (tries >= 3)
                 {
                     return;
                 }
 
             }
+            status.Text = "Song requested, wait 10 minutes now.";
         }
 
         private void Login_Click(object sender, EventArgs e)
@@ -121,9 +124,9 @@ namespace vidyaMobile
             {
                 if (pw.Text.Length > 3)
                 {
-                    
+
                     int tries = 0;
-                    while (userId == ""&& tries<4)
+                    while (userId == "" && tries < 4)
                     {
                         try
                         {
@@ -131,17 +134,17 @@ namespace vidyaMobile
                         }
                         catch (Exception)
                         {
-                            
+
                         }
                         tries++;
                     }
-                    if (tries >=4)
+                    if (tries >= 4)
                     {
                         status.Text = "Error check your internets!";
                         return;
                     }
                 }
-                
+
             }
             else
             {
@@ -155,7 +158,7 @@ namespace vidyaMobile
             else
             {
                 int tries = 0;
-                while (newSongs == -1 && tries < 4 )
+                while (newSongs == -1 && tries < 4)
                 {
                     try
                     {
@@ -168,7 +171,7 @@ namespace vidyaMobile
                     tries++;
 
                 }
-                if (tries >=4)
+                if (tries >= 4)
                 {
                     status.Text = "error getting your songs please try again!";
                     return;
@@ -177,7 +180,7 @@ namespace vidyaMobile
 
                 b1.Enabled = true;              //enable the grab songs button!
                 add_to_queue_button.Enabled = true;
-                status.Text = "Greetings " + userId + "!" + "You have "+newSongs.ToString()+ " new songs!";
+                status.Text = "Greetings " + userId + "!" + "You have " + newSongs.ToString() + " new songs!";
             }
 
 
@@ -223,28 +226,28 @@ namespace vidyaMobile
                 status.Text = "No Songs Available!";
                 return;
             }
-            
+
             string[] songnames = available_songs.Split(';');
 
 
             //send a response to the server that we have received the song list.
-            if (songnames.Length > 1 )
+            if (songnames.Length > 1)
             {
                 string ok = "";
                 int tries = 0;
-                while (ok == ""&& tries <4)
+                while (ok == "" && tries < 4)
                 {
                     try
                     {
                         //dont forget the userid this is what the file is named after all... 
-                       ok =  client.GetStringAsync("http://" + serverIp + "/gotsongs_OK&"+userId).Result; //send the ok to the server to delete the songs list file. 
+                        ok = client.GetStringAsync("http://" + serverIp + "/gotsongs_OK&" + userId).Result; //send the ok to the server to delete the songs list file. 
                     }
                     catch (Exception)
                     {
                     }
                     tries++;
                 }
-                if (tries>=4)
+                if (tries >= 4)
                 {
                     status.Text = status.Text + ":(";
 
@@ -254,12 +257,12 @@ namespace vidyaMobile
 
 
 
-            byte[] songData= new byte[] { 1, 2, 3 };
+            byte[] songData = new byte[] { 1, 2, 3 };
 
             Stream song = null;
 
             //get the folder path (where songs are saved)
-            
+
             string base_folder_path = "";
             try
             {
@@ -285,30 +288,32 @@ namespace vidyaMobile
             var sdcardPath = Android.OS.Environment.ExternalStorageDirectory.AbsolutePath;
 
 
-            
+
 
 
             //download each song. 
-            foreach (string item in songnames )// a song s name is url encoded to just send it , server has to decode it. 
+            foreach (string item in songnames)// a song s name is url encoded to just send it , server has to decode it. 
             {
                 song = null;
-                int tries = 0;
-                while (song == null && tries < 4)
+                if (item != "")
                 {
-                    try
+                    int tries = 0;
+                    while (song == null && tries < 4)
                     {
-                        song = client.GetStreamAsync("http://" + serverIp + "/getsongs&" + item).Result;
-                        tries = 0; //reset it for the next song. 
-                    }
-                    catch (System.Exception)
-                    {
+                        try
+                        {
+                            song = client.GetStreamAsync("http://" + serverIp + "/getsongs&" + item).Result;
+                        }
+                        catch (System.Exception)
+                        {
 
+                        }
+                        tries++;
                     }
-                    tries++;
                 }
 
 
-                if (song!= null)
+                if (song != null)
                 {
                     //write the song to memory(sd card)
                     using (var memoryStream = new MemoryStream())

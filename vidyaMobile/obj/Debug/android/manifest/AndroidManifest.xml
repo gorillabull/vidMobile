@@ -8,7 +8,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:allowBackup="true" android:label="@string/app_name" android:name="android.app.Application" android:debuggable="true">
-    <activity android:label="vidyaMobile" android:name="md51713c42a79c1cfd56269a77b0a9009aa.MainActivity">
+    <activity android:label="vidyaMobile" android:name="md50605763fb972a4491578315135ebf6d6.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

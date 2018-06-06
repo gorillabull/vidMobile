@@ -10,15 +10,20 @@ C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\S
 C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Net.dll
 C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Net.Http.dll
 C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Net.Http.WinHttpHandler.dll
-C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Runtime.dll
 C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Security.dll
 C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Web.Services.dll
 C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Xml.dll
+C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Runtime.dll
+C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.ComponentModel.Composition.dll
+C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Diagnostics.Debug.dll
 C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Threading.dll
 C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Collections.dll
 C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Collections.Concurrent.dll
 C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Reflection.dll
-C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Diagnostics.Debug.dll
+C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Linq.Expressions.dll
+C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Reflection.Primitives.dll
+C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Dynamic.Runtime.dll
+C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.ObjectModel.dll
 C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Linq.dll
 C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Runtime.InteropServices.dll
 C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Runtime.Extensions.dll
@@ -26,4 +31,3 @@ C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\S
 C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.Runtime.Serialization.dll
 C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.ServiceModel.Internals.dll
 C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\Mono.Security.dll
-C:\Users\Admin\Documents\GitHub\vidMobile\vidyaMobile\obj\Debug\android\assets\System.ComponentModel.Composition.dll
